@@ -580,7 +580,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "\320\235\320\260\321\203\321\207\320\275\321\213\320\271 \320\272\320\260\320\273\321\214\320\272\321\203\320\273\321\217\321\202\320\276\321\200", nullptr));
         result_show->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
         pushButton_ac->setText(QCoreApplication::translate("MainWindow", "AC", nullptr));
         pushButton_percent->setText(QCoreApplication::translate("MainWindow", "%", nullptr));
